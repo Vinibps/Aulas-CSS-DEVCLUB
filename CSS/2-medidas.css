@@ -1,0 +1,24 @@
+/*UNIDADES DE MEDIDA
+
+---> ABSOLUTAS
+
+    USAR
+
+    px (pixels) 1/100 polegada
+
+
+    IGNORAR
+
+    in (inches/polegadas)
+    cm/mm (centímetro/milímetro)
+    
+    
+---> RELATIVAS
+
+    % calcula o tamanho relativo do elemento pai
+    vw (view wigth) 1 vw é 1% da largura da janela do navegador
+    vh (view hight) 1 vh é 1% da altura da janela do navegador
+    em é uma unidade relativa ao elemento pai
+    rem é uma unidade relativa ao elemento raiz
+
+*/

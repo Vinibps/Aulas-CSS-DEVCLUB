@@ -1,0 +1,167 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 44px 0 0 76px;
+}
+
+img {
+    display: inline-block;
+    margin-left: 125px;
+    margin-top: 138px;
+}
+
+main {
+    display: inline-block;
+    margin-left: 170px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    width: 513px;
+    height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 57px;
+    font-weight: 500;
+    width: 448px;
+    height: 71px;
+    text-align: unset;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    height: 87px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#bt-main {
+    border-radius: 50px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+#bt-main:hover {
+    opacity: 0.8;
+}
+
+#bt-main:active {
+    opacity: 0.5;
+}
+
+#bt-header {
+    width: 130px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #665AE1;
+    border: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#bt-header:hover {
+    opacity: 0.8;
+}
+
+#bt-header:active {
+    opacity: 0.5;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 35px;  
+    cursor: pointer;
+}
+
+.link-header:hover {
+    opacity: 0.8;
+}
+
+.link-header:active {
+    opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    
+
+    div {
+        display: block;
+        position: static;
+    }
+
+    img {
+        padding: 16px;
+        width: 67%;
+        height: auto;
+        margin: 149px 16px 0 16px;
+        padding: 0;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 61px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0 45px 0 45px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0 60px;
+    }
+
+    main {
+            display: block;
+            position: static;
+            padding: 0;
+            margin: 0;
+            height: auto;
+            width: 50%;
+        }
+
+    #bt-main {
+        margin: 5px 18px;
+    }
+
+}

@@ -1,0 +1,58 @@
+/*Seletor tipo: Por TAG's */
+
+h1 {
+    color: tomato;
+    background:black;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+    background: green;
+    border-color: darkgreen;
+}
+
+/*Seletor Tipo: Selecionar TUDO */
+
+* {
+
+}
+
+/*Seletor Tipo: ID */
+
+#titulo {
+    color: blueviolet;
+    font-size: 55px;
+
+}
+
+#paragrafo {
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#botao {
+    color: aquamarine;
+    background: black;
+}
+
+/*Seletor Tipo: Classe */
+
+.texto {
+    color: brown;
+    font-weight: bold;
+}
+
+.botao {
+    background: blue;
+}
+
+/*Seletor Tipo: Virgula ","*/
+
+.texto, .botao, p, #segundo-botao {
+    color: red;
+}

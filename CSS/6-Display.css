@@ -1,0 +1,17 @@
+.box {
+    background: #FF1395;
+    height: 50px;
+    width: 50px;
+    display: inline;
+    margin-right: 50px;
+}
+
+.box-2 {
+    background: #FFFF00;
+}
+
+.box-3 {
+    background: #0003FF;
+}
+
+/* DISPLAY INLINE = IGNORA AS DEFINIÇÕES DE ALTURA, LARGURA E MARGIN-TOP & MARGIN-BOTTON*/

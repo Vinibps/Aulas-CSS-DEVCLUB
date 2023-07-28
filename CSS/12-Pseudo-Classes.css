@@ -1,0 +1,32 @@
+/*
+PSEUDO CLASSES:
+
+Active              Quando o elemento está ativo, ou seja, quando ele está sendo pressionado
+Visited             Seleciona o link que foi vititado
+Hover               Quando o mouse passa em cima do elemento
+Checked             Usado em radio / check box / select
+Disable             Elemento desabilitado / button / input
+Enable              Elemento está habilitado
+Focus               É aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuario seleciona o elemento 
+Ready-only          Seleciona input ou textarea que são apenas leitura
+Empty               O elemento que não tem filho
+
+fist-child          Primeiro filho ex: primeira li de uma ul / primeiro span de uma div  
+first-of-type       Primeiro elemento de seu tipo entro os filhos de seu elemento pai
+last-child          Último filho
+last-of-type        Último elemento de seu tipo entre os filhos do seu elemento pai
+not()               Estiliza os elementos, ecxeto o que está dentro do ()
+nth-child           Seleciona o elemento baseado na sua aposição
+nth-last-child      Seleciona o elemento baseado na sua posição, contando de trás para frente    
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li:first-child {
+    color: red;
+}

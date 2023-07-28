@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+h1 {
+    color: red;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Lumanosimo', cursive;
+    font-style: italic;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+p {
+    text-shadow: 10px 10px 20px #000000; /*dA SOMBRA AO TEXTO*/
+    color: black; /*troca a cor do texto*/
+    font-size: 30px; /*troca o tamanho da fonte do texto*/
+    font-weight: 1px; /*grossura da fonte*/
+    font-family: 'Lumanosimo', cursive; /*fonte*/
+    font-style: italic; /*Estilo da fonte*/
+    line-height: 30px; /*Espaçamento das linhas*/
+    letter-spacing: 2px; /*Espaçamento das letras*/
+    word-spacing: 1px; /*Espaçamento das palavras*/
+    text-align: justify; /*Organização do texto*/
+    text-transform: capitalize; /*Muda todas as letras do texto*/
+    text-decoration: underline; /*Decora o texto*/   
+}

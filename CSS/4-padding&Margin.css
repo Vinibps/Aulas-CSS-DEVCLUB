@@ -1,0 +1,20 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+
+    margin-top: 1px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 5px;
+    
+    margin: 10px 50px 30px 10px;
+} /*Relógio  12h  3h   6h   9h */
+/* 
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 50px;
+    padding-top: 10px;
+} */
